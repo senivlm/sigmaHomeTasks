@@ -1,0 +1,13 @@
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.exe
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.deps.json
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.runtimeconfig.json
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.runtimeconfig.dev.json
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.dll
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\bin\Debug\netcoreapp3.1\HomeTask4.pdb
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.csprojAssemblyReference.cache
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.AssemblyInfoInputs.cache
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.AssemblyInfo.cs
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.dll
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.pdb
+F:\my_study\sigma\p4\HomeTask4\HomeTask4\obj\Debug\netcoreapp3.1\HomeTask4.genruntimeconfig.cache

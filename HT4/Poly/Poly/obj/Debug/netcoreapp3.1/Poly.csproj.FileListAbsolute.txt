@@ -1,0 +1,13 @@
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.exe
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.deps.json
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.runtimeconfig.json
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.runtimeconfig.dev.json
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.dll
+F:\my_study\sigma\p4\Poly\Poly\bin\Debug\netcoreapp3.1\Poly.pdb
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.csprojAssemblyReference.cache
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.AssemblyInfoInputs.cache
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.AssemblyInfo.cs
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.dll
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.pdb
+F:\my_study\sigma\p4\Poly\Poly\obj\Debug\netcoreapp3.1\Poly.genruntimeconfig.cache
