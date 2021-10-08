@@ -1,0 +1,13 @@
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.csprojAssemblyReference.cache
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.AssemblyInfoInputs.cache
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.AssemblyInfo.cs
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.exe
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.deps.json
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.runtimeconfig.json
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.runtimeconfig.dev.json
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.dll
+F:\my_study\sigma\p5\firstTask\firstTask\bin\Debug\netcoreapp3.1\firstTask.pdb
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.dll
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.pdb
+F:\my_study\sigma\p5\firstTask\firstTask\obj\Debug\netcoreapp3.1\firstTask.genruntimeconfig.cache
