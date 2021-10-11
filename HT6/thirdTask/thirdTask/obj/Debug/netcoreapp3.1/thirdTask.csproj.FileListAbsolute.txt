@@ -1,0 +1,13 @@
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.exe
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.deps.json
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.runtimeconfig.json
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.runtimeconfig.dev.json
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.dll
+F:\my_study\sigma\p6\thirdTask\thirdTask\bin\Debug\netcoreapp3.1\thirdTask.pdb
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.csprojAssemblyReference.cache
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.AssemblyInfoInputs.cache
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.AssemblyInfo.cs
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.dll
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.pdb
+F:\my_study\sigma\p6\thirdTask\thirdTask\obj\Debug\netcoreapp3.1\thirdTask.genruntimeconfig.cache

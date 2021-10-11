@@ -1,0 +1,13 @@
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.exe
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.deps.json
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.runtimeconfig.json
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.runtimeconfig.dev.json
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.dll
+F:\my_study\sigma\p6\secondTask\secondTask\bin\Debug\netcoreapp3.1\secondTask.pdb
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.csprojAssemblyReference.cache
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.AssemblyInfoInputs.cache
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.AssemblyInfo.cs
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.dll
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.pdb
+F:\my_study\sigma\p6\secondTask\secondTask\obj\Debug\netcoreapp3.1\secondTask.genruntimeconfig.cache
