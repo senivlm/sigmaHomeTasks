@@ -1,0 +1,6 @@
+Potato 7
+Beet 6
+Carrot 12
+Egg 3
+Chery 50
+Tomato 3

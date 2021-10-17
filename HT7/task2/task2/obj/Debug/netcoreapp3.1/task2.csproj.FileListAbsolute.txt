@@ -1,0 +1,13 @@
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.exe
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.deps.json
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.runtimeconfig.json
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.runtimeconfig.dev.json
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.dll
+F:\my_study\sigma\p7\task2\task2\bin\Debug\netcoreapp3.1\task2.pdb
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.csprojAssemblyReference.cache
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.AssemblyInfoInputs.cache
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.AssemblyInfo.cs
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.dll
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.pdb
+F:\my_study\sigma\p7\task2\task2\obj\Debug\netcoreapp3.1\task2.genruntimeconfig.cache

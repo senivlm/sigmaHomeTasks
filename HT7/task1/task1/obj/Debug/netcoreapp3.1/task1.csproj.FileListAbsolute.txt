@@ -1,0 +1,13 @@
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.exe
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.deps.json
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.runtimeconfig.json
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.runtimeconfig.dev.json
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.dll
+F:\my_study\sigma\p7\task1\task1\bin\Debug\netcoreapp3.1\task1.pdb
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.csprojAssemblyReference.cache
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.AssemblyInfoInputs.cache
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.AssemblyInfo.cs
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.dll
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.pdb
+F:\my_study\sigma\p7\task1\task1\obj\Debug\netcoreapp3.1\task1.genruntimeconfig.cache
