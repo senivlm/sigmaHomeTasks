@@ -15,7 +15,7 @@ namespace task1
             string curentSubstring = null;
             int lengthOfWord; 
             int curentChar;
-
+Чому побуквенно працюєте зі словами, не застосовуючи метод Split?
 
             for (int i = 0; i < inputText.Length; i++)
             {
@@ -40,6 +40,7 @@ namespace task1
                     }
 
                     curentSubstring = inputText.Substring(i, lengthOfWord);
+                    Тут має бути цикл!
                     if (!mainDictionary.ContainsKey(curentSubstring)) 
                     {
                         Console.WriteLine($"Enter translation of {curentSubstring}");
