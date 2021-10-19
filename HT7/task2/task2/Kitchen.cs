@@ -7,7 +7,7 @@ using System.Globalization;
 namespace task2
 {
     class Kitchen
-    {
+    { Аде сама задача розв\язана
         private Dictionary<string, double> priceBook;
         private Dictionary<string, double> ingredientsRequired;
 
@@ -18,7 +18,7 @@ namespace task2
         }
 
         public void GetPrices(string pricesFilePath) 
-        {
+        {неадекватна назва методу. Ви навпаки читаєте тут , а не повертаєте
             try
             {
                 using (StreamReader sr = new StreamReader(pricesFilePath))
