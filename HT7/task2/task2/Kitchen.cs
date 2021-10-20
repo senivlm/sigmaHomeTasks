@@ -17,7 +17,7 @@ namespace task2
             ingredientsRequired = new Dictionary<string, double>();
         }
 
-        public void GetPrices(string pricesFilePath) 
+        public void SetPrices(string pricesFilePath) 
         {
             try
             {
@@ -44,7 +44,7 @@ namespace task2
             }
 }
 
-        public string GetListOfProducts(string ingredientsFilePath) 
+        public void SetRequiredProducts(string ingredientsFilePath) 
         {
             using (StreamReader sr = new StreamReader(ingredientsFilePath))
             {
@@ -73,15 +73,17 @@ namespace task2
                     }
                 }
             }
+        }
 
-
+        public static string CalculateRequirments(Kitchen kitchen) 
+        {
             StringBuilder result = new StringBuilder();
 
             try
             {
-                foreach (string key in ingredientsRequired.Keys)
+                foreach (string key in kitchen.ingredientsRequired.Keys)
                 {
-                    result.Append($"{key} {Math.Round(ingredientsRequired[key], 2)} {Math.Round(ingredientsRequired[key] * priceBook[key], 2)}\n");
+                    result.Append($"{key} {Math.Round(kitchen.ingredientsRequired[key], 2)} {Math.Round(kitchen.ingredientsRequired[key] * kitchen.priceBook[key], 2)}\n");
                 }
             }
             catch (KeyNotFoundException)

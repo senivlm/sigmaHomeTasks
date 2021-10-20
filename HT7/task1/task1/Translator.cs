@@ -42,8 +42,18 @@ namespace task1
                     curentSubstring = inputText.Substring(i, lengthOfWord);
                     if (!mainDictionary.ContainsKey(curentSubstring)) 
                     {
-                        Console.WriteLine($"Enter translation of {curentSubstring}");
-                        mainDictionary.Add(curentSubstring,  Console.ReadLine());
+                        while (true)
+                        {
+                            Console.WriteLine($"Enter translation of {curentSubstring}");
+                            string userTranslation = Console.ReadLine();
+
+                            Console.WriteLine($"Do you want to translate {curentSubstring} like {userTranslation}?");
+                            if (Console.ReadLine().ToLower() == "yes")
+                            {
+                                mainDictionary.Add(curentSubstring, userTranslation);
+                                break;
+                            }                            
+                        }
                     }
 
                     resultOfTranslation.Append(mainDictionary[curentSubstring]);
