@@ -1,0 +1,13 @@
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.exe
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.deps.json
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.runtimeconfig.json
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.runtimeconfig.dev.json
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.dll
+F:\my_study\sigma\p8\task2_set\task2_set\bin\Debug\netcoreapp3.1\task2_set.pdb
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.csprojAssemblyReference.cache
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.AssemblyInfoInputs.cache
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.AssemblyInfo.cs
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.dll
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.pdb
+F:\my_study\sigma\p8\task2_set\task2_set\obj\Debug\netcoreapp3.1\task2_set.genruntimeconfig.cache
