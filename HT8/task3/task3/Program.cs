@@ -6,30 +6,12 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            var lst = StringCollectionManipulate.GetListOfSentenses(@"F:\my_study\sigma\p8\task3\task3\bin\Debug\netcoreapp3.1\SentenseCollection.txt");
-            //StringCollectionManipulate.GetNestedBrackets(lst);
-            //Console.WriteLine(StringCollectionManipulate.GetNestedBrackets(lst));
+            var s = StringCollectionManipulate.GetSentanceWithMostNestedBrackets(@"F:\my_study\sigma\p8\task3\task3\bin\Debug\netcoreapp3.1\SentenseCollection.txt");
 
-            stringSortingOptionDelegate sortingOption = (p1, p2) =>
-            {
-                if (p1.Length > p2.Length)
-                {
-                    return 1;
-                }
-                else if (p1.Length < p2.Length)
-                {
-                    return -1;
-                }
-                else
-                {
-                    return 0;
-                }
-            };
+            Console.WriteLine(s);
+            Console.WriteLine();
 
-            StringCollectionManipulate.SortByLength(lst);
-
-
-            foreach (var item in lst)
+            foreach (var item in StringCollectionManipulate.SortStringCollection(@"F:\my_study\sigma\p8\task3\task3\bin\Debug\netcoreapp3.1\SentenseCollection.txt"))
             {
                 Console.WriteLine(item);
             }

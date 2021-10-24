@@ -67,17 +67,17 @@ namespace task1
 
             Product[] productsArray = productsList.ToArray();
             SpecialisedSort.Sort(productsArray, SortProductsByWeight);
-            foreach (var item in productsArray)
+            foreach (var product in productsArray)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(product);
             }
 
             Console.WriteLine();
 
             SpecialisedSort.Sort(productsArray, SortProductsByPrice);
-            foreach (var item in productsArray)
+            foreach (var product in productsArray)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(product);
             }
 
         }

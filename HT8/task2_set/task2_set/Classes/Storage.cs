@@ -8,7 +8,7 @@ namespace task2_set
 {
     public class Storage: IEnumerable<Product>
     {
-        private Product[] products;
+        private List<Product> products;
         (int, int, int) Koefs;
         bool IsInitialised = false;
 
@@ -22,12 +22,12 @@ namespace task2_set
             }
         }
 
-
         public Product this[int Index]
         {
             get { return products[Index]; }
             set { products[Index] = value; }
         }
+
 
         public string GetFullInfo()
         {
@@ -42,12 +42,12 @@ namespace task2_set
             return resultString.ToString();
         }
 
-        public Product[] GetAllMeatProducts()
+        public List<Product> GetAllMeatProducts()
         {
-            Product[] meat;
+            List<Product> meat;
             int CountOfMeatProducts = 0;
 
-            for (int i = 0; i < products.Length; i++)
+            for (int i = 0; i < products.Capacity; i++)
             {
                 if (products[i] is Meat)
                 {
@@ -55,10 +55,10 @@ namespace task2_set
                 }
             }
 
-            meat = new Product[CountOfMeatProducts];
+            meat = new List<Product>(CountOfMeatProducts);
             CountOfMeatProducts = 0;
 
-            for (int i = 0; i < products.Length; i++)
+            for (int i = 0; i < products.Capacity; i++)
             {
                 if (products[i] is Meat)
                 {
@@ -78,7 +78,7 @@ namespace task2_set
             {
                 using (StreamWriter sw = new StreamWriter(filePath))
                 {
-                    for (int i = 0; i < products.Length; i++)
+                    for (int i = 0; i < products.Capacity; i++)
                     {
                         if ((dairy = products[i] as Dairy_products) != null)
                         {
@@ -99,6 +99,7 @@ namespace task2_set
             }
         }
 
+
         public void StartFileInitialisation(string filePath) 
         {
             string[] initialisationParameters = null;
@@ -109,7 +110,7 @@ namespace task2_set
                 {
                     initialisationParameters = sr.ReadToEnd().Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                    products = new Product[initialisationParameters.Length - 1];
+                    products = new List<Product>(initialisationParameters.Length - 1);
                     try
                     {
                         string[] koefs = initialisationParameters[0].Split();
@@ -134,15 +135,15 @@ namespace task2_set
                             switch (productInitialisationParameters[0])
                             {
                                 case ("Meat"):
-                                    products[i - 1] = new Meat();
+                                    products.Add( new Meat());
                                     //products[i - 1].Parse(productInitialisationParameters[1]);
                                     break;
                                 case ("Dairy"):
-                                    products[i - 1] = new Dairy_products();
+                                    products.Add(new Dairy_products());
                                     //products[i - 1].Parse(productInitialisationParameters[1]);
                                     break;
                                 case ("Classic"):
-                                    products[i - 1] = new Product();
+                                    products.Add(new Product());
                                     break;
 
                                 default:
@@ -168,8 +169,6 @@ namespace task2_set
             IsInitialised = true;
         }
 
-
-
         public void StartFastInitialisation(int k1, int k2, int k3, params Product[] _paramsProducts)
         {
             if (IsInitialised)
@@ -177,7 +176,7 @@ namespace task2_set
                 return;
             }
 
-            products = new Product[_paramsProducts.Length];
+            products = new List<Product>(_paramsProducts.Length);
             IsInitialised = true;
             for (int i = 0; i < _paramsProducts.Length; i++)
             {
@@ -196,7 +195,7 @@ namespace task2_set
 
             Console.WriteLine("How much elemests shoud your storage have?");
             int Count = Convert.ToInt32(Console.ReadLine());
-            this.products = new Product[Count];
+            this.products = new List<Product>();
             IsInitialised = true;
 
             for (int i = 0; i < Count; i++)
@@ -347,17 +346,17 @@ namespace task2_set
 
         class StorageEnumerator : IEnumerator<Product>
         {
-            private Product[] arrayOfProducts = null;
+            private List<Product> listOfProducts = null;
             private int currentPosition = -1;
 
-            public StorageEnumerator(Product[] products)
+            public StorageEnumerator(List<Product> products)
             {
-                arrayOfProducts = products;
+                listOfProducts = products;
             }
 
-            public Product Current => arrayOfProducts[currentPosition];
+            public Product Current => listOfProducts[currentPosition];
 
-            object IEnumerator.Current => arrayOfProducts[currentPosition];
+            object IEnumerator.Current => listOfProducts[currentPosition];
 
             public void Dispose()
             {
@@ -368,7 +367,7 @@ namespace task2_set
             {
                 currentPosition++;
 
-                return currentPosition < arrayOfProducts.Length;
+                return currentPosition < listOfProducts.Count;
             }
 
             public void Reset()

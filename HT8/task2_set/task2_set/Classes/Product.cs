@@ -89,7 +89,6 @@ namespace task2_set
         }
 
 
-
         private string name;
         public string Name
         {
@@ -154,7 +153,7 @@ namespace task2_set
 
         public override string ToString()
         {
-            return $"Name: \"{this.Name}\", Weight: {this.Weight}, Price:{this.Price}";
+            return $"Name: \"{this.Name}\", Weight: {this.Weight}, Price: {this.Price}";
         }
 
         public Product Copy()

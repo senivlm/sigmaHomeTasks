@@ -5,82 +5,117 @@ using System.IO;
 
 namespace task3
 {
-    public delegate int stringSortingOptionDelegate(string s1, string s2);
-//IComparer<string>    
-
-    static class StringCollectionManipulate
+    static class StringCollectionManipulate 
     {
-        public static List<String> GetListOfSentenses(string filePath)
+        public static string GetSentanceWithMostNestedBrackets(string filePath) 
         {
-            List<String> stringList = new List<string>();
-
+            StreamReader streamReader = null;
             try
             {
-                using (StreamReader sr = new StreamReader(filePath))
-                {
-                    stringList.AddRange(sr.ReadToEnd().Split(new char[] { '.' },
-                                                            StringSplitOptions.RemoveEmptyEntries));
-                }
+                streamReader = new StreamReader(filePath);
             }
-            catch (Exception)
+            catch
             {
-                Console.WriteLine("Impossible to read from this file");
+                Console.WriteLine("Impossible to open file");
                 return null;
             }
 
-            return stringList;
-        }
 
-        public static string GetNestedBrackets(List<String> inputList)
-        {
-            string sentenceWithMaxBrackets = null;
-            int currentCountOfNestedBrackets = 0;
-            int maxCountOfNestedBrackets = 0;
+            string resultSentance = "";
+            StringBuilder currentSentance = new StringBuilder("");
+            bool setNewSentance = false;
 
+            int maxAmountOfBrackets = 0;
+            int currentAmountOfBrackets = 0;
 
-            foreach (string sentence in inputList)
+            string currentLine = streamReader.ReadLine();
+            while (currentLine != null)
             {
-                foreach (char letter in sentence)
+                foreach (char letter in currentLine) 
                 {
-                    if (letter == '(')
+                    if (letter == '.')
                     {
-                        currentCountOfNestedBrackets++;
+                        currentSentance.Append(letter);
+                        if (setNewSentance)
+                        {
+                            resultSentance = currentSentance.ToString();
+                        }
+
+                        currentSentance.Clear();
+                        currentSentance.Append("");
+                        setNewSentance = false;
+                    }
+                    else if (letter == '(')
+                    {
+                        currentAmountOfBrackets++;
+                        currentSentance.Append(letter);
                     }
                     else if (letter == ')')
                     {
-                        if (currentCountOfNestedBrackets > maxCountOfNestedBrackets)
+                        if (currentAmountOfBrackets > maxAmountOfBrackets) 
                         {
-                            maxCountOfNestedBrackets = currentCountOfNestedBrackets;
-                            sentenceWithMaxBrackets = sentence + '.';
+                            setNewSentance = true;
+                            maxAmountOfBrackets = currentAmountOfBrackets;
                         }
 
-                        currentCountOfNestedBrackets--;
+                        currentSentance.Append(letter);
+                        currentAmountOfBrackets--;
+                    }
+                    else
+                    {
+                        currentSentance.Append(letter);
                     }
                 }
+
+                currentLine = streamReader.ReadLine();
             }
 
-            return sentenceWithMaxBrackets;
+
+            streamReader.Close();
+
+            return resultSentance;
         }
 
-        public static void SortByLength(List<String> inputList) 
+        public static List<string> SortStringCollection(string filePath)
         {
-            inputList.Sort((p1, p2) =>
+            StreamReader streamReader = null;
+            try
             {
-                if (p1.Length > p2.Length)
-                {
-                    return 1;
-                }
-                else if (p1.Length < p2.Length)
-                {
-                    return -1;
-                }
-                else
-                {
-                    return 0;
-                }
-            }) ;
-        }
+                streamReader = new StreamReader(filePath);
+            }
+            catch
+            {
+                Console.WriteLine("Impossible to open file");
+                return null;
+            }
 
-        
+
+            var listOfStrings = new List<string>();
+
+            StringBuilder currentSentance = new StringBuilder();
+            string line = streamReader.ReadLine();
+            while (line != null)
+            {
+                foreach (char letter in line)
+                {
+                    currentSentance.Append(letter);
+
+                    if (letter == '.')
+                    {
+                        listOfStrings.Add(currentSentance.ToString());
+                        currentSentance.Clear();
+                    }
+                }
+
+                line = streamReader.ReadLine();
+            }
+            
+
+
+
+            streamReader.Close();
+            listOfStrings.Sort((s1, s2) => s1.Length.CompareTo(s2.Length));
+            return listOfStrings;
+        }
     }
 }
