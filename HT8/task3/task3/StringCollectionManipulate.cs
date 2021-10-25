@@ -6,7 +6,7 @@ using System.IO;
 namespace task3
 {
     static class StringCollectionManipulate 
-    {
+    {Чому читання з файлу у 2 функціях?
         public static string GetSentanceWithMostNestedBrackets(string filePath) 
         {
             StreamReader streamReader = null;
