@@ -58,7 +58,7 @@ namespace task2_set
 
         #region SortedSetWithComparerRegion
         public static List<Product> GetCommonSortedProducts(Storage storage1, Storage storage2, IComparer<Product> comparer)
-        {
+        {Поясніть, як працює цей конструктор з користувацьким класом
             var productsOfFirstStorage = new SortedSet<Product>(storage1, comparer);
             var productsOfSecondStorage = new SortedSet<Product>(storage2, comparer);
 
