@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace task1
-{
+{Чудово!
     class Program
     {
         public static int SortProductsByPrice(object first, object second) 
