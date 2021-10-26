@@ -1,0 +1,7 @@
+2 3 5
+Meat|Ryaba 310 6,98 10 4.10.2021 First Chicken
+Dairy|Milk 420 29,90 14 07.10.2021
+Classic|Juice 320 25,73 22 24.9.2021
+Meat|Sausage 543 90,3 20 5.1.2021 Greatest Lamb
+Dairy|Cheese 350 70,4 40 04.6.2021
+Classic|Apple 170 2,4 6 4.2.2021

@@ -1,0 +1,10 @@
+﻿Error occured in StorageUPD.Storage - Impossible to parse product data(). Time - 26.10.2021 13:42:02
+Error occured in StorageUPD.Storage - Impossible to add unexisting product to the list. Time - 26.10.2021 13:45:35
+Error occured in StorageUPD.Storage - Impossible to parse product data(Sausage 54f3 90,3 20 5.1.2021 Greatest Lamb). Time - 26.10.2021 13:47:19
+Error occured in StorageUPD.Storage - Impossible to parse product data(). Time - 26.10.2021 13:50:03
+Error occured in StorageUPD.Storage - Impossible to parse product data(Sausage 54f3 90,3 20 5.1.2021 Greatest Lamb). Time - 26.10.2021 13:50:19
+Error occured in StorageUPD.Storage - Impossible to add unexisting product to the list. Time - 26.10.2021 13:51:04
+Error occured in StorageUPD.Storage - Impossible to parse product data(Sausage 54f3 90,3 20 5.1.2021 Greatest Lamb). Time - 26.10.2021 14:16:47
+Error occured in StorageUPD.Storage - Impossible to parse product data(Sausage 54k3 90,3 20 5.1.2021 Greatest Lamb). Time - 26.10.2021 14:21:54
+Error occured in StorageUPD.Storage - Impossible to add unexisting product to the list. Time - 26.10.2021 14:57:31
+Delete bad dairy products method was invoked by StorageUPD.Storage - deleted: Milk, Cheese, . Time - 26.10.2021 17:27:00

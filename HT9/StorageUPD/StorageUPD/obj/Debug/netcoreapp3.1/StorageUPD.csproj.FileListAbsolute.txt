@@ -1,0 +1,13 @@
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.exe
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.deps.json
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.runtimeconfig.json
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.runtimeconfig.dev.json
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.dll
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\bin\Debug\netcoreapp3.1\StorageUPD.pdb
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.csprojAssemblyReference.cache
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.AssemblyInfoInputs.cache
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.AssemblyInfo.cs
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.dll
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.pdb
+F:\my_study\sigma\p9\StorageUPD\StorageUPD\obj\Debug\netcoreapp3.1\StorageUPD.genruntimeconfig.cache
