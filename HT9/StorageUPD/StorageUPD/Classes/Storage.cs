@@ -37,6 +37,7 @@ namespace StorageUPD
             {
                 Console.WriteLine($"Impossible to create product object - {problemDescription}. Please initialise now");                
             }
+            //перед приведенням до типу треба зробити перевірку, чи можна це зробити
             Storage thisObject = (Storage)sender;
 
             string typeOfNewProduct = null;
