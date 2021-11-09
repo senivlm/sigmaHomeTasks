@@ -27,7 +27,7 @@ namespace StorageUPD
             set { products[Index] = value; }
         }
 
-
+//GПеремістити в стрічку 14. Події іменуюьб з великої літери.
         public event GetBadDairyProductsHandler getBadDairyProductsEvent;
         public event InvalidProductInitialisation invalidProductInitialisation;
 
