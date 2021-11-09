@@ -1,0 +1,13 @@
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.exe
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.deps.json
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.runtimeconfig.json
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.runtimeconfig.dev.json
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.dll
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\bin\Debug\netcoreapp3.1\Saint.pdb
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.csprojAssemblyReference.cache
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.AssemblyInfoInputs.cache
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.AssemblyInfo.cs
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.csproj.CoreCompileInputs.cache
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.dll
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.pdb
+F:\my_study\sigma\p11(WithNicolaus)\Saint\Saint\obj\Debug\netcoreapp3.1\Saint.genruntimeconfig.cache
